@@ -273,14 +273,14 @@ body {
 
 .btn-login {
     color: #fbfdff;
-    background: #ff0000;
+    background: #ee2c2c;
     transform: translateX(-30%);
 
 }
 
 .btn-signup {
-    color: #ff0000;
+    color: #ee2c2c;
     background: #fbfdff;
-    box-shadow: inset 0 0 0 2px #ff0000;
+    box-shadow: inset 0 0 0 2px #ee2c2c;
     transform: translateX(-30%);
 }
