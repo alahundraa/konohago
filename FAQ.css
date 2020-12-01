@@ -221,64 +221,13 @@ section.faq {
     color: #000;
 }
 #faq ul li input[type=checkbox]:checked ~ p {
-    /*margin-top: 0;*/
     max-height: 0;
     transition: .3s;
     opacity: 0;
-    /*transform: translate(0, 50%);*/
 }
 #faq ul li input[type=checkbox]:checked ~ i:before {
     transform: translate(2px, 0) rotate(45deg);
 }
 #faq ul li input[type=checkbox]:checked ~ i:after {
     transform: translate(-2px, 0) rotate(-45deg);
-}
-
-
-
-
-
-
-
-
-
-
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-html, body {
-    height: 100%;
-}
-
-a,
-a:visited,
-a:focus,
-a:active,
-a:link {
-    text-decoration: none;
-    outline: 0;
-}
-
-a {
-    color: currentColor;
-    transition: .2s ease-in-out;
-}
-
-h1, h2, h3, h4 {
-    margin: .3em 0;
-}
-
-ul {
-    padding: 0;
-    list-style: none;
-}
-
-img {
-    vertical-align: middle;
-    height: auto;
-    width: 100%;
 }
